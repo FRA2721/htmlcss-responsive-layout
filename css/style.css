@@ -576,6 +576,98 @@ header .hide-menu{
   }
 }
 
+/* get_started */
+#get-started{
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+#get-started .section-name{
+  color: var(--secondary-color-light);
+}
+
+#get-started .flex-container,
+footer .flex-container{
+  flex-direction: column;
+  padding-top: var(--padding-4);
+  text-align: center;
+}
+
+#get-started .free{
+  color: #fcc061;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#get-started p{
+  color: var(--secondary-color-light);
+}
+
+#get-started .white-btn{
+  padding: .5rem;
+  width: 40%;
+  font-size: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+#get-started .flex-container ul{
+  font-size: 0.8rem;
+  list-style-type: disc;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: var(--padding-4);
+}
+
+#get-started .flex-container ul li{
+  padding-right: 1.5em;
+  list-style-type: none;
+}
+
+#get-started ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+/* media_query_get_started */
+/* mobile */
+@media screen and (max-width: 767px){
+  #get-started h2{
+      font-size: 2.5rem;
+      padding: 1rem 0;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px){
+ 
+  #get-started .flex-container,
+  footer .flex-container{
+      width: 70%;
+  }
+  
+  #get-started h2{
+      padding: 0.5em 0 ;
+  }
+
+  #get-started .free{
+      font-size: 8rem;
+  }
+
+  #get-started .violet-btn{
+      width: 60%;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 992px){
+ 
+  #get-started .flex-container,
+  footer .flex-container{
+      width: 50%;
+  }
+}
+
 
 
 
