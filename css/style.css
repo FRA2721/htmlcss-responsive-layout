@@ -505,6 +505,78 @@ header .hide-menu{
   }
 }
 
+/* about_us formatting */
+#about-us h1{
+  font-size: 3rem;
+}
+
+#about-us p{
+  line-height: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+#about-us .portrait{
+  width: 140px;
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+#about-us .flex-container{
+  flex-direction: column;
+}
+
+#about-us .portrait.about{
+  background-image: url(../img/about.jpg);
+  position: relative;
+}
+
+#about-us .portrait.about i{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+#about-us h3{
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+
+/* media_query_about_us */
+/* tablet */
+@media screen and (min-width: 768px){
+ 
+  #about-us .flex-container{
+      flex-direction: row;
+      margin: var(--padding-y-4);
+      align-items: flex-start;
+      gap: 6.5rem;
+  }
+
+  #about-us h1{
+      padding: 0;
+      padding-bottom: 2rem;
+  }
+
+  #about-us h3{
+      font-size: 1.5rem;
+  }
+
+  #about-us .btn{
+      width: 100%;
+      font-size: 0.8rem;
+  }
+
+  #about-us .portrait{
+      width: 180px;
+      height: 180px;
+  }
+}
+
+
 
 
 
