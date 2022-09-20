@@ -282,5 +282,71 @@ header .hide-menu{
   }
 }
 
+/* planning_ssection_formatting */
+#planning{
+  background-color: var(--secondary-color);
+}
+
+#planning .flex-container{
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: var(--padding-5);
+}
+
+#planning .strategic-planning{
+  color: white;
+  margin: 5rem auto;
+}
+
+#planning .app-development{
+  text-align: center;
+  background-color: white;
+}
+
+#planning .app-development p{
+  font-style: italic;
+  padding: 0 1em
+  1em;
+}
+
+.circle-btn{
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  margin: 1em auto 2em;
+}
+
+.circle-btn i{
+  color: black;
+  font-size: 1rem;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.circle-btn:hover i{
+  color: white;
+}
+/*----- media -----*/
+/* desktop */
+@media screen and (min-width: 992px){
+  #planning .flex-container{
+      width: 60%;
+      max-width: 1000px;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 4em;
+  }
+
+  #planning .app-development{
+      margin-top: 10rem;
+      width: 40%;
+  }
+
+  #planning .strategic-planning{
+      width: 60%;
+  }
+}
+
 
 
