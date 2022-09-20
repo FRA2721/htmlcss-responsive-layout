@@ -668,6 +668,27 @@ footer .flex-container{
   }
 }
 
+/* footer */
+footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer a{
+  color: var(--secondary-color);
+}
+
+footer p{
+  margin-bottom: 3rem;
+}
+
+footer span{
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+
 
 
 
