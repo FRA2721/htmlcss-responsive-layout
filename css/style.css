@@ -282,7 +282,7 @@ header .hide-menu{
   }
 }
 
-/* planning_ssection_formatting */
+/* planning_section_formatting */
 #planning{
   background-color: var(--secondary-color);
 }
@@ -327,7 +327,7 @@ header .hide-menu{
 .circle-btn:hover i{
   color: white;
 }
-/*----- media -----*/
+/* media_query */
 /* desktop */
 @media screen and (min-width: 992px){
   #planning .flex-container{
@@ -347,6 +347,82 @@ header .hide-menu{
       width: 60%;
   }
 }
+
+/* testimonial_section_formatting */
+#testimonials .flex-container{
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  padding: var(--padding-4);
+}
+
+#testimonials .bag{
+  margin-top: 3em;
+}
+
+#testimonials .bag p{
+  padding: 0.5em 0 1em;
+}
+
+#testimonials .card{
+  width: 100%;
+  background-color: var(--secondary-color);
+  margin-bottom: 2em;
+  color: white;
+}
+
+#testimonials .card .text-wrapper .testimonial-name{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#testimonials .card .text-wrapper p i{
+  margin: 0 0.5rem;
+  font-size: 2rem;
+}
+
+#testimonials .portrait{
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#testimonials .nat{
+  background-image: url(../img/testimonial1.jpg);
+}
+
+#testimonials .celia{
+  background-image: url(../img/testimonial2.jpg);
+}
+
+#testimonials .bob{
+  background-image: url(../img/testimonial3.jpg);
+}
+
+/* media_query_testimonial */
+/* tablet */
+@media screen and (min-width: 768px){
+  #testimonials .bag .card{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: start;
+  }
+
+  #testimonials .portrait{
+      width: 180px;
+      height: 180px;
+  }
+
+  #testimonials .card .text-wrapper{
+      width: 65%;
+  }
+}
+
+
 
 
 
